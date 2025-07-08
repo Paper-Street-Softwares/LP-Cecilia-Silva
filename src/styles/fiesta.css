@@ -1,0 +1,65 @@
+.fadeinfiest {
+  opacity: 0;
+  animation: fadeinfiest 0.5s ease-in forwards, pulse 2s infinite ease-in-out;
+}
+
+.fadeinfiest:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.fadeinfiest:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.fadeinfiest:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+.fadeinfiest:nth-child(4) {
+  animation-delay: 0.7s;
+}
+
+.fadeinfiest:nth-child(5) {
+  animation-delay: 0.9s;
+}
+
+@keyframes fadeinfiest {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Animação do botao */
+
+.pulse-button {
+  display: inline-block;
+  transition: transform 1s ease-in-out;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

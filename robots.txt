@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://www.advogadaceciliasilva.com.br /sitemap.xml
+

@@ -1,0 +1,94 @@
+/* shapedivTriangulo */
+
+.custom-shape-divider-bottom-1742562382 {
+  position: relative; /* Mantém no fluxo da página */
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1742562382 svg {
+  display: block;
+  width: 100%;
+  max-height: 90px;
+}
+
+/* .custom-shape-divider-bottom-1742562382 .shape-fill {
+  fill: white;
+} */
+
+/* shapedivAsymetrical lado esquerdo  */
+
+.custom-shape-divider-bottom-1742564826 {
+  position: relative; /* Mantém no fluxo da página */
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  line-height: 0;
+  margin-top: -20px; /* Ajuste para empurrar a seção seguinte para cima */
+}
+
+.custom-shape-divider-bottom-1742564826 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 90px;
+  transform: rotateY(180deg);
+}
+
+/* .custom-shape-divider-bottom-1742564826 .shape-fill {
+  fill: white;
+} */
+
+/* <div class="custom-shape-divider-bottom-1742564826 hidden desktop1:flex">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+          className="bg-bgSectionLight"
+        >
+          <path
+            d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z"
+            class="shape-fill fill-bgSectionDark"
+          ></path>
+        </svg>
+      </div> */
+
+/* shapedivAsymetrical lado direito */
+
+.custom-shape-divider-bottom-1742564926 {
+  position: relative; /* Mantém no fluxo da página */
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  line-height: 0;
+  margin-top: -20px; /* Ajuste para empurrar a seção seguinte para cima */
+}
+
+.custom-shape-divider-bottom-1742564926 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 90px;
+}
+
+/* .custom-shape-divider-bottom-1742564926 .shape-fill {
+  fill: white;
+} */
+
+/* <div class="custom-shape-divider-bottom-1742564826 hidden desktop1:flex">
+<svg
+  data-name="Layer 1"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 120"
+  preserveAspectRatio="none"
+  className="bg-bgSectionDark"
+>
+  <path
+    d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z"
+    class="shape-fill fill-white"
+  ></path>
+</svg>
+</div> */

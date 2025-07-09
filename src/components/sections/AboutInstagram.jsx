@@ -41,12 +41,12 @@ export default function AboutInstagram({
   return (
     <SectionArea id="about" className={`${bgClass}`} paddingtop={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-x-[40px] desktop1:justify-between ">
-        {socialPrint ? (
+        {/* {socialPrint ? (
           <SocialPrint colorMode={colorMode} />
         ) : (
           <DefaultInstagram colorMode={colorMode} />
-        )}
-        <div className="desktop1:w-[550px] desktop2:w-[570px]">
+        )} */}
+        <div className="desktop1:w-[90%] m-auto">
           <MotionDivDownToUp>
             <SectionHeader
               // className={`text-center ${textClass}`}
@@ -54,13 +54,13 @@ export default function AboutInstagram({
               miniTitle={content.texts.about.aboutSocial.miniTag}
               sectionHeaderTitle={content.texts.about.aboutSocial.title}
               sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
-              type="article"
+              type=""
               titleColorSet={textClass}
               subtitleColorSet={textClass}
             />
           </MotionDivDownToUp>
           <ParagraphsAboutSocial colorMode={colorMode} />
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 items-center">
             {instagram && <InstagramAbout colorMode={colorMode} />}
             {facebook && <FacebookAbout colorMode={colorMode} />}
             {x && <XAbout colorMode={colorMode} />}

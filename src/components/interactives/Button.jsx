@@ -26,11 +26,11 @@ export default function Button({
   if (size === "small") {
     sizeFeatures = "rounded-[4px] px-[18px] py-[10px]";
     textSizeClass = "text-paragraph3 font-secondFont";
-    gap = "gap-[10px]";
+    gap = gap || "gap-[10px]";
   } else {
     sizeFeatures = "rounded-[8px] px-[30px] py-[16px]";
     textSizeClass = "text-paragraph4 font-secondFont";
-    gap = "gap-[20px]";
+    gap = gap || "gap-[20px]";
   }
 
   const Animation = animation ? MotionDivDownToUp : "div";

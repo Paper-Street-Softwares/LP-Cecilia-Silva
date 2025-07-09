@@ -60,6 +60,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                   <Button
                     aria-label={content.texts.hero.ctaButtonAriaLabel}
                     label={content.texts.hero.ctaButtonText}
+                    gap="gap-[0px]"
                     animation
                     className="w-[100%]"
                     icon={<FaWhatsapp size={24} />}
@@ -70,7 +71,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                 {/* Observação */}
                 <MotionDivDownToUp>
                   <div className="flex justify-center desktop1:justify-start">
-                    <div className="flex flex-col items-center desktop1:flex-row text-white">
+                    <div className="flex flex-col items-center desktop1:flex-row text-primary">
                       {content.texts.hero.obsHero.icon}
 
                       <p
@@ -123,7 +124,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
             <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
               <MotionDivDownToUp className="relative flex justify-center w-full">
                 <div
-                  className="bg-top mt-[20px] desktop1:mt-0 rounded-xl w-full phone1:h-[300px] phone1:max-w-[300px] phone2:h-[355px] phone2:max-w-[355px] phone3:h-[405px] phone3:max-w-[405px] tablet1:h-[576px] tablet1:min-w-[576px] tablet2:h-[690px] tablet2:min-w-[690px] desktop1:h-[400px] desktop1:min-w-[200px] desktop2:h-[400px] desktop2:min-w-[400px] bg-cover bg-no-repeat shadow-custom-opacity shadow-shadowAbouts/0"
+                  className="bg-top mt-[20px] desktop1:mt-0 rounded-xl w-full phone1:h-[300px] phone1:max-w-[300px] phone2:h-[355px] phone2:max-w-[355px] phone3:h-[405px] phone3:max-w-[405px] tablet1:h-[576px] tablet1:min-w-[576px] tablet2:h-[690px] tablet2:min-w-[690px] desktop1:h-[400px] desktop1:min-w-[200px] desktop2:h-[400px] desktop2:min-w-[400px] bg-cover bg-no-repeat shadow-custom-opacity shadow-shadowAbouts/30"
                   style={{
                     backgroundImage: `url(${content.texts.hero.heroDefaultImage})`,
                   }}

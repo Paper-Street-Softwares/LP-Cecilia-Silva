@@ -60,6 +60,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                   <Button
                     aria-label={content.texts.hero.ctaButtonAriaLabel}
                     label={content.texts.hero.ctaButtonText}
+                    gap="gap-[0px]"
                     animation
                     className="w-[100%]"
                     icon={<FaWhatsapp size={24} />}
@@ -70,7 +71,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                 {/* Observação */}
                 <MotionDivDownToUp>
                   <div className="flex justify-center desktop1:justify-start">
-                    <div className="flex flex-col items-center desktop1:flex-row text-white">
+                    <div className="flex flex-col items-center desktop1:flex-row text-primary">
                       {content.texts.hero.obsHero.icon}
 
                       <p

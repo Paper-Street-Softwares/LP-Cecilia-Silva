@@ -359,7 +359,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                     colorMode={colorMode}
                   />
-                  {modal && (
+                  {/* {modal && (
                     <Button
                       colorMode={colorMode}
                       size="small"
@@ -406,7 +406,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                         </svg>
                       }
                     />
-                  )}
+                  )} */}
                 </MotionDivDownToUp>{" "}
               </div>
             </div>

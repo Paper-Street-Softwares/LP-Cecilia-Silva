@@ -77,7 +77,7 @@ export default function SidebarSocial({ colorMode }) {
               id="app-sidebar-2"
               className={`${
                 colorMode
-                  ? "bg-bgSectionDark"
+                  ? "bg-white"
                   : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
               }`}
               style={{ width: "280px" }}

@@ -126,11 +126,28 @@ const content = {
       miniTag: "ADVOGADA EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          Direito com propósito e<span className="text-primary"> ação</span>
+          Dra. Cecilia Silva - Sócia fundadora
+          <br />
+          OAB/SP 312.967
+          <br />
+          <br />
+          Advogada, atuante desde 2011.
         </h1>
       ),
-      subtitle:
-        "A gente não enrola: entende, age e resolve o que está travando sua vida.",
+      subtitle: (
+        <p>
+          * Pós graduada em Processo Civil e Direito Civil pela Escola Paulista
+          de Direito - EPD
+          <br />* Pós graduada em Direito Processual do Trabalho e Direito do
+          Trabalho pela Legale Educacional Cursos Jurídicos
+          <br />* Especialista em Direito do Consumidor e da Saúde com vasta
+          experiência na prestação de serviços para pessoas físicas e jurídicas
+          de médio e grande porte
+          <br />* Bacharelada em Direito pelo Centro Universitário das
+          Faculdades Metropolitanas Unidas - FMU
+          <br />* Membra do Instituto Brasileiro de Direito da Família - IBDFAM
+        </p>
+      ),
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -500,7 +517,7 @@ const content = {
         alt: "Imagem profissional de escritório/advogado(a)",
       },
       miniTag: "QUEM É A DRA. CECILIA SILVA",
-      title: "Minha trajetória",
+      title: "Missão, valores e objetivo",
       subtitle:
         "Atendimento ético, humanizado e soluções jurídicas personalizadas",
       labelInstagram: "Siga-me no Instagram",

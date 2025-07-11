@@ -135,7 +135,7 @@ const content = {
         </h1>
       ),
       subtitle: (
-        <p className="text-paragraph3">
+        <p className="text-paragraph1">
           * Pós graduada em Processo Civil e Direito Civil pela Escola Paulista
           de Direito - EPD
           <br />* Pós graduada em Direito Processual do Trabalho e Direito do

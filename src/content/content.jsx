@@ -516,7 +516,7 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. CECILIA SILVA",
+      miniTag: "SOBRE NÓS",
       title: "Missão, valores e objetivo",
       subtitle:
         "Atendimento ético, humanizado e soluções jurídicas personalizadas",

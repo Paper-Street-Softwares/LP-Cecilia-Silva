@@ -130,12 +130,12 @@ const content = {
           <br />
           OAB/SP 312.967
           <br />
-          <br />
-          Advogada, atuante desde 2011.
         </h1>
       ),
       subtitle: (
         <p className="text-paragraph1">
+          Advogada, atuante desde 2011.
+          <br />
           * Pós graduada em Processo Civil e Direito Civil pela Escola Paulista
           de Direito - EPD
           <br />* Pós graduada em Direito Processual do Trabalho e Direito do

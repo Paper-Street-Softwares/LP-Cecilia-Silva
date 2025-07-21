@@ -240,9 +240,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                   <p className="font-mainFont phone3:w-[88%] tablet1:w-[75%] desktop1:w-full">
                     Aos meus amados pais, meus agradecimentos por serem os
                     pilares sólidos, a base da minha vida, fortalecendo-me, com
-                    apoio, inspiração, amor e segurança!
-                    <br />
-                    Deus seja louvado!
+                    apoio, inspiração, amor e segurança! Deus seja louvado!
                   </p>
                 </div>
               </MotionDivDownToUp>

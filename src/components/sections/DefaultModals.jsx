@@ -234,10 +234,10 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                   }}
                 ></div>
                 <div className="flex flex-col items-center justify-center text-center mb-6 desktop1:my-6">
-                  <h1 className="font-mainFont">
+                  <h1 className="font-mainFont text-title1">
                     <strong>COLUNA DA JUSTIÇA</strong>
                   </h1>
-                  <p className="font-mainFont phone3:w-[88%] tablet1:w-[75%] desktop1:w-full">
+                  <p className="font-mainFont phone3:w-[88%] tablet1:w-[75%] desktop1:w-full text-paragraph3">
                     Aos meus amados pais, meus agradecimentos por serem os
                     pilares sólidos, a base da minha vida, fortalecendo-me, com
                     apoio, inspiração, amor e segurança! Deus seja louvado!

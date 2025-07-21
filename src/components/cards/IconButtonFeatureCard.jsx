@@ -18,10 +18,10 @@ export default function IconButtonFeatureCard(props) {
 
   return (
     <div
-      className={`w-[250px] phone2:w-[300px] phone3:w-[350px] tablet1:h-[220px] tablet1:max-w-[255px] desktop1:max-w-[250px] p-0 flex flex-col items-center desktop1:p-0 ${className}`}
+      className={`w-[250px] phone2:w-[300px] phone3:w-[350px] tablet2:h-[220px] desktop2:h-auto tablet2:max-w-[200px] desktop1:max-w-[250px] p-0 flex flex-col items-center desktop1:p-0 ${className}`}
     >
       <div
-        className={`h-[64px] w-[64px] mb-[24px] rounded-md text-white flex justify-center items-center ${bgClass}`}
+        className={`h-[64px] w-[64px] mb-[24px] rounded-md text-primary bg-transparent flex justify-center items-center ${bgClass}`}
       >
         {icon}
       </div>
@@ -32,7 +32,7 @@ export default function IconButtonFeatureCard(props) {
       </h1>
 
       <p
-        className={`text-center opacity-70 font-mainFont w-[90%] pb-4 ${textClass}`}
+        className={`text-center opacity-70 font-mainFont w-[90%]  pb-4 ${textClass}`}
       >
         {paragraph}
       </p>

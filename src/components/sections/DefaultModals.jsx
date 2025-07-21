@@ -51,7 +51,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
         <SectionWrapper>
           <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
             <div className="flex flex-wrap items-start justify-center tablet1:justify-evenly w-full gap-4">
-              <div className="col3  desktop1:w-[28%] gap-4 flex flex-col justify-center items-center">
+              <div className="col3 desktop1:w-[28%] gap-2 flex phone1:flex-col tablet2:flex-row desktop1:flex-col justify-center items-center">
                 {" "}
                 <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
@@ -226,16 +226,26 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 </MotionDivDownToUp>{" "}
               </div>
 
-              <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
+              <MotionDivDownToUp className="flex flex-col gap-4 items-center w-[100%] justify-center desktop1:w-[32%]">
                 <div
-                  className="hidden h-[900px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
+                  className=" min-h-[500px] tablet1:h-[950px] tablet2:h-[1080px] mb-6 desktop1:mb-0 desktop1:h-[900px] w-[303px] tablet1:w-[400px] tablet2:w-[500px] desktop1:w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
                   style={{
                     backgroundImage: `url(${content.texts.features.imgFeatures})`,
                   }}
                 ></div>
+                <div className="flex flex-col items-center justify-center text-center mb-6 desktop1:my-6">
+                  <h1 className="font-mainFont">
+                    <strong>COLUNA DA JUSTIÇA</strong>
+                  </h1>
+                  <p className="font-mainFont phone3:w-[88%] tablet1:w-[75%] desktop1:w-full">
+                    Aos meus amados pais, meus agradecimentos por serem os
+                    pilares sólidos, a base da minha vida, fortalecendo-me, com
+                    apoio, inspiração, amor e segurança! Deus seja louvado!
+                  </p>
+                </div>
               </MotionDivDownToUp>
 
-              <div className="col3 desktop1:w-[28%] gap-4 flex flex-col justify-center items-center">
+              <div className="col3 desktop1:w-[28%] gap-2 flex phone1:flex-col tablet2:flex-row desktop1:flex-col justify-center items-center">
                 {" "}
                 <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
@@ -351,7 +361,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     />
                   )}
                 </MotionDivDownToUp>{" "}
-                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] h-[320px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
                     icon={content.texts.features.card6.icon}
                     title={content.texts.features.card6.title}

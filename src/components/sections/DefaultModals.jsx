@@ -51,7 +51,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
         <SectionWrapper>
           <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
             <div className="flex flex-wrap items-start justify-center tablet1:justify-evenly w-full gap-4">
-              <div className="col3  desktop1:w-[28%] gap-4 flex flex-col justify-center items-center">
+              <div className="col3 desktop1:w-[28%] gap-2 flex phone1:flex-col tablet2:flex-row desktop1:flex-col justify-center items-center">
                 {" "}
                 <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
@@ -245,7 +245,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 </div>
               </MotionDivDownToUp>
 
-              <div className="col3 desktop1:w-[28%] gap-4 flex flex-col justify-center items-center">
+              <div className="col3 desktop1:w-[28%] gap-2 flex phone1:flex-col tablet2:flex-row desktop1:flex-col justify-center items-center">
                 {" "}
                 <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
@@ -361,7 +361,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     />
                   )}
                 </MotionDivDownToUp>{" "}
-                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] h-[320px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
                     icon={content.texts.features.card6.icon}
                     title={content.texts.features.card6.title}

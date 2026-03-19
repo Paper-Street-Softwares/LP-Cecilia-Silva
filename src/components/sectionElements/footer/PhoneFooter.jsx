@@ -11,7 +11,7 @@ function PhoneFooter({ colorMode }) {
 
   switch (colorMode) {
     case "light":
-      iconColor = "text-black";
+      iconColor = "text-white";
       break;
     case "dark":
       iconColor = "text-white";

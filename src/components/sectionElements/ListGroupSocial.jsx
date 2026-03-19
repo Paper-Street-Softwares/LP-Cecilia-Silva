@@ -20,19 +20,19 @@ export default function ListGroupSocial({ colorMode = "default" }) {
 
   // Define cores baseadas no modo atual
   const getTextColor = () => {
-    if (colorMode === "light") return "text-black";
+    if (colorMode === "light") return "text-white";
     if (colorMode === "dark") return "text-white";
     return "text-white"; // default
   };
 
   const getHoverTextColor = () => {
-    if (colorMode === "light") return "hover:text-black";
+    if (colorMode === "light") return "hover:text-white";
     if (colorMode === "dark") return "hover:text-white";
     return "hover:text-white";
   };
 
   const getBorderColor = () => {
-    if (colorMode === "light") return "bg-black";
+    if (colorMode === "light") return "bg-white";
     if (colorMode === "dark") return "bg-white";
     return "bg-white";
   };
@@ -73,7 +73,8 @@ export default function ListGroupSocial({ colorMode = "default" }) {
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label="Contato"
-            className=""
+            color={`bg-bgSectionLight`}
+            labelColor={`text-black`}
             textclassName="text-paragraph3"
             size="small"
             icon={
@@ -81,7 +82,7 @@ export default function ListGroupSocial({ colorMode = "default" }) {
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
                 height="18"
-                fill="currentColor"
+                fill="#000"
                 className="bi bi-whatsapp"
                 viewBox="0 0 18 18"
               >

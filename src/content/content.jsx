@@ -123,7 +123,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA EM SÃO PAULO - SP",
+      miniTag: "ADVOGADA EM ITAPECERICA DA SERRA E SÃO PAULO",
       title: (
         <h1 className="mb-[16px]">
           Dra. Cecilia Silva - Sócia fundadora

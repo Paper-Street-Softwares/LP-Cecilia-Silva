@@ -114,7 +114,7 @@ export default function NavbarSocial({ colorMode }) {
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
               className={`bg-transparent ${
-                scrolling ? " w-[20%]" : " my-[0px] w-[30%]"
+                scrolling ? " w-[50%]" : " my-[0px] w-[70%] phone3:w-[60%]"
               } transition-all duration-1000`}
             />
           </ScrollLink>
@@ -125,7 +125,10 @@ export default function NavbarSocial({ colorMode }) {
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
                 label={content.texts.navbar.ctaButtonTextResponsive}
                 size="small"
-                icon={<FaWhatsapp />}
+                color={`bg-bgSectionLight`}
+                labelColor={`text-black`}
+                textclassName="text-paragraph3"
+                icon={<FaWhatsapp className="text-black" />}
                 colorMode={colorMode}
               />
             </div>

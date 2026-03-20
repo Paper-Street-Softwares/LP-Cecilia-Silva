@@ -23,7 +23,7 @@ export default function Steps({ colorMode }) {
   return (
     <SectionArea className={`${bgClass}`} paddingtop={true}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-shadowSteps/30">
+        <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-shadowSteps/10">
           <img
             src={content.texts.steps.img}
             alt={content.texts.steps.img}

@@ -23,13 +23,27 @@ export default function Steps({ colorMode }) {
   return (
     <SectionArea className={`${bgClass}`} paddingtop={true}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-shadowSteps/10">
-          <img
-            src={content.texts.steps.img}
-            alt={content.texts.steps.img}
-            className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
-          />
-        </MotionDivDownToUp>
+        <div className="flex flex-col items-center justify-center  w-[90%] desktop1:w-[415px] desktop2:w-[450px]">
+          <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-shadowSteps/10">
+            <img
+              src={content.texts.steps.img}
+              alt={content.texts.steps.img}
+              className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
+            />
+          </MotionDivDownToUp>
+          <MotionDivDownToUp>
+            <div className="flex flex-col items-center justify-center my-6 text-center desktop1:my-6">
+              <h1 className="font-mainFont text-title1">
+                <strong>COLUNA DA JUSTIÇA</strong>
+              </h1>
+              <p className="font-mainFont phone3:w-[88%] tablet1:w-[75%] desktop1:w-full text-paragraph3">
+                Aos meus amados pais, meus agradecimentos por serem os pilares
+                sólidos, a base da minha vida, fortalecendo-me, com apoio,
+                inspiração, amor e segurança! Deus seja louvado!
+              </p>
+            </div>
+          </MotionDivDownToUp>
+        </div>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <SectionHeader
             className="hidden text-center desktop1:flex"

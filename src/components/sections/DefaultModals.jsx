@@ -50,123 +50,9 @@ export default function DefaultModals({ modal = "true", colorMode }) {
 
         <SectionWrapper>
           <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
-            <div className="flex flex-wrap items-start justify-center tablet1:justify-evenly w-full gap-4">
-              <div className="col3 desktop1:w-[28%] gap-2 flex phone1:flex-col tablet2:flex-row desktop1:flex-col justify-center items-center">
+            <div className="flex flex-wrap items-start justify-center w-full gap-4 tablet1:justify-evenly">
+              <div className="col3 desktop1:w-[28%] gap-2 flex phone1:flex-col tablet2:flex-row justify-center items-center">
                 {" "}
-                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
-                  <IconButtonFeatureCard
-                    icon={content.texts.features.card1.icon}
-                    title={content.texts.features.card1.title}
-                    paragraph={content.texts.features.card1.subtitle}
-                    className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-                    colorMode={colorMode}
-                  />
-                  {modal && (
-                    <Button
-                      colorMode={colorMode}
-                      size="small"
-                      label={content.texts.features.card1.buttonLabel}
-                      onClick={() =>
-                        onClick(
-                          content.texts.features.card1.title,
-                          content.texts.features.card1.description,
-                          <>
-                            <p className="my-[20px]">
-                              Quer saber mais? Clique abaixo 👇
-                            </p>
-                            <div>
-                              <Button
-                                colorMode={colorMode}
-                                aria-label={
-                                  content.texts.about.ctaButtonAriaLabel
-                                }
-                                label={content.texts.about.ctaButtonText}
-                                buttonLink={content.texts.links.ctaWhatsapp}
-                                animation={false}
-                                className="hover:scale-105"
-                                icon={<FaWhatsapp size={24} />}
-                              />
-                            </div>
-                          </>
-                        )
-                      }
-                      icon={
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-corner-down-right"
-                        >
-                          <polyline points="15 10 20 15 15 20" />
-                          <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                        </svg>
-                      }
-                    />
-                  )}
-                </MotionDivDownToUp>
-                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
-                  <IconButtonFeatureCard
-                    icon={content.texts.features.card3.icon}
-                    title={content.texts.features.card3.title}
-                    paragraph={content.texts.features.card3.subtitle}
-                    className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-                    colorMode={colorMode}
-                  />
-                  {modal && (
-                    <Button
-                      colorMode={colorMode}
-                      size="small"
-                      label={content.texts.features.card3.buttonLabel}
-                      onClick={() =>
-                        onClick(
-                          content.texts.features.card3.title,
-                          content.texts.features.card3.description,
-                          <>
-                            <p className="my-[20px]">
-                              Quer saber mais? Clique abaixo 👇
-                            </p>
-                            <div>
-                              <Button
-                                colorMode={colorMode}
-                                aria-label={
-                                  content.texts.about.ctaButtonAriaLabel
-                                }
-                                label={content.texts.about.ctaButtonText}
-                                buttonLink={content.texts.links.ctaWhatsapp}
-                                animation={false}
-                                className="hover:scale-105"
-                                icon={<FaWhatsapp size={24} />}
-                              />
-                            </div>
-                          </>
-                        )
-                      }
-                      icon={
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-corner-down-right"
-                        >
-                          <polyline points="15 10 20 15 15 20" />
-                          <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                        </svg>
-                      }
-                    />
-                  )}
-                </MotionDivDownToUp>{" "}
                 <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
                     icon={content.texts.features.card5.icon}
@@ -223,17 +109,131 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                       }
                     />
                   )}
+                </MotionDivDownToUp>
+                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                  <IconButtonFeatureCard
+                    icon={content.texts.features.card2.icon}
+                    title={content.texts.features.card2.title}
+                    paragraph={content.texts.features.card2.subtitle}
+                    className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                    colorMode={colorMode}
+                  />
+                  {modal && (
+                    <Button
+                      colorMode={colorMode}
+                      size="small"
+                      label={content.texts.features.card2.buttonLabel}
+                      onClick={() =>
+                        onClick(
+                          content.texts.features.card2.title,
+                          content.texts.features.card2.description,
+                          <>
+                            <p className="my-[20px]">
+                              Quer saber mais? Clique abaixo 👇
+                            </p>
+                            <div>
+                              <Button
+                                colorMode={colorMode}
+                                aria-label={
+                                  content.texts.about.ctaButtonAriaLabel
+                                }
+                                label={content.texts.about.ctaButtonText}
+                                buttonLink={content.texts.links.ctaWhatsapp}
+                                animation={false}
+                                className="hover:scale-105"
+                                icon={<FaWhatsapp size={24} />}
+                              />
+                            </div>
+                          </>
+                        )
+                      }
+                      icon={
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-corner-down-right"
+                        >
+                          <polyline points="15 10 20 15 15 20" />
+                          <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                        </svg>
+                      }
+                    />
+                  )}
+                </MotionDivDownToUp>{" "}
+                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                  <IconButtonFeatureCard
+                    icon={content.texts.features.card1.icon}
+                    title={content.texts.features.card1.title}
+                    paragraph={content.texts.features.card1.subtitle}
+                    className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                    colorMode={colorMode}
+                  />
+                  {modal && (
+                    <Button
+                      colorMode={colorMode}
+                      size="small"
+                      label={content.texts.features.card1.buttonLabel}
+                      onClick={() =>
+                        onClick(
+                          content.texts.features.card1.title,
+                          content.texts.features.card1.description,
+                          <>
+                            <p className="my-[20px]">
+                              Quer saber mais? Clique abaixo 👇
+                            </p>
+                            <div>
+                              <Button
+                                colorMode={colorMode}
+                                aria-label={
+                                  content.texts.about.ctaButtonAriaLabel
+                                }
+                                label={content.texts.about.ctaButtonText}
+                                buttonLink={content.texts.links.ctaWhatsapp}
+                                animation={false}
+                                className="hover:scale-105"
+                                icon={<FaWhatsapp size={24} />}
+                              />
+                            </div>
+                          </>
+                        )
+                      }
+                      icon={
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-corner-down-right"
+                        >
+                          <polyline points="15 10 20 15 15 20" />
+                          <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                        </svg>
+                      }
+                    />
+                  )}
                 </MotionDivDownToUp>{" "}
               </div>
 
-              <MotionDivDownToUp className="flex flex-col gap-4 items-center w-[100%] justify-center desktop1:w-[32%]">
+              {/* <MotionDivDownToUp className="flex flex-col gap-4 items-center w-[100%] justify-center desktop1:w-[32%]">
                 <div
                   className=" min-h-[500px] tablet1:h-[950px] tablet2:h-[1080px] mb-6 desktop1:mb-0 desktop1:h-[900px] w-[303px] tablet1:w-[400px] tablet2:w-[500px] desktop1:w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
                   style={{
                     backgroundImage: `url(${content.texts.features.imgFeatures})`,
                   }}
                 ></div>
-                <div className="flex flex-col items-center justify-center text-center mb-6 desktop1:my-6">
+                <div className="flex flex-col items-center justify-center mb-6 text-center desktop1:my-6">
                   <h1 className="font-mainFont text-title1">
                     <strong>COLUNA DA JUSTIÇA</strong>
                   </h1>
@@ -243,9 +243,9 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     apoio, inspiração, amor e segurança! Deus seja louvado!
                   </p>
                 </div>
-              </MotionDivDownToUp>
+              </MotionDivDownToUp> */}
 
-              <div className="col3 desktop1:w-[28%] gap-2 flex phone1:flex-col tablet2:flex-row desktop1:flex-col justify-center items-center">
+              <div className="col3 desktop1:w-[28%] gap-2 flex phone1:flex-col tablet2:flex-row justify-center items-center desktop1:hidden">
                 {" "}
                 <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
@@ -306,9 +306,9 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 </MotionDivDownToUp>{" "}
                 <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
-                    icon={content.texts.features.card2.icon}
-                    title={content.texts.features.card2.title}
-                    paragraph={content.texts.features.card2.subtitle}
+                    icon={content.texts.features.card3.icon}
+                    title={content.texts.features.card3.title}
+                    paragraph={content.texts.features.card3.subtitle}
                     className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                     colorMode={colorMode}
                   />
@@ -316,11 +316,11 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     <Button
                       colorMode={colorMode}
                       size="small"
-                      label={content.texts.features.card2.buttonLabel}
+                      label={content.texts.features.card3.buttonLabel}
                       onClick={() =>
                         onClick(
-                          content.texts.features.card2.title,
-                          content.texts.features.card2.description,
+                          content.texts.features.card3.title,
+                          content.texts.features.card3.description,
                           <>
                             <p className="my-[20px]">
                               Quer saber mais? Clique abaixo 👇
@@ -419,6 +419,135 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                   )} */}
                 </MotionDivDownToUp>{" "}
               </div>
+            </div>
+          </div>
+          <div className="flex justify-center mt-10 ">
+            {" "}
+            <div className="col3 desktop1:w-[28%] gap-2 phone1:flex-col tablet2:flex-row hidden justify-center items-center desktop1:flex">
+              {" "}
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                <IconButtonFeatureCard
+                  icon={content.texts.features.card4.icon}
+                  title={content.texts.features.card4.title}
+                  paragraph={content.texts.features.card4.subtitle}
+                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                  colorMode={colorMode}
+                />
+                {modal && (
+                  <Button
+                    size="small"
+                    colorMode={colorMode}
+                    label={content.texts.features.card4.buttonLabel}
+                    onClick={() =>
+                      onClick(
+                        content.texts.features.card4.title,
+                        content.texts.features.card4.description,
+                        <>
+                          <p className="my-[20px]">
+                            Quer saber mais? Clique abaixo 👇
+                          </p>
+                          <div>
+                            <Button
+                              aria-label={
+                                content.texts.about.ctaButtonAriaLabel
+                              }
+                              label={content.texts.about.ctaButtonText}
+                              buttonLink={content.texts.links.ctaWhatsapp}
+                              animation={false}
+                              className="hover:scale-105"
+                              icon={<FaWhatsapp size={24} />}
+                              colorMode={colorMode}
+                            />
+                          </div>
+                        </>
+                      )
+                    }
+                    icon={
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-corner-down-right"
+                      >
+                        <polyline points="15 10 20 15 15 20" />
+                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      </svg>
+                    }
+                  />
+                )}
+              </MotionDivDownToUp>{" "}
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                <IconButtonFeatureCard
+                  icon={content.texts.features.card3.icon}
+                  title={content.texts.features.card3.title}
+                  paragraph={content.texts.features.card3.subtitle}
+                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                  colorMode={colorMode}
+                />
+                {modal && (
+                  <Button
+                    colorMode={colorMode}
+                    size="small"
+                    label={content.texts.features.card3.buttonLabel}
+                    onClick={() =>
+                      onClick(
+                        content.texts.features.card3.title,
+                        content.texts.features.card3.description,
+                        <>
+                          <p className="my-[20px]">
+                            Quer saber mais? Clique abaixo 👇
+                          </p>
+                          <div>
+                            <Button
+                              colorMode={colorMode}
+                              aria-label={
+                                content.texts.about.ctaButtonAriaLabel
+                              }
+                              label={content.texts.about.ctaButtonText}
+                              buttonLink={content.texts.links.ctaWhatsapp}
+                              animation={false}
+                              className="hover:scale-105"
+                              icon={<FaWhatsapp size={24} />}
+                            />
+                          </div>
+                        </>
+                      )
+                    }
+                    icon={
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-corner-down-right"
+                      >
+                        <polyline points="15 10 20 15 15 20" />
+                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      </svg>
+                    }
+                  />
+                )}
+              </MotionDivDownToUp>{" "}
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] h-[320px] border-solid px-[10px] py-[20px]">
+                <IconButtonFeatureCard
+                  icon={content.texts.features.card6.icon}
+                  title={content.texts.features.card6.title}
+                  paragraph={content.texts.features.card6.subtitle}
+                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                  colorMode={colorMode}
+                />
+              </MotionDivDownToUp>{" "}
             </div>
           </div>
         </SectionWrapper>

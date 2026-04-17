@@ -44,6 +44,14 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                   <h1>{content.texts.hero.title}</h1>
                 </div>
               </MotionDivDownToUp>
+              <div className="flex flex-wrap justify-center gap-2 mb-4 desktop1:justify-start ">
+                <div className="px-2 py-1 bg-white rounded-lg w-fit ring-1 ring-primary">
+                  Direito de Família
+                </div>
+                <div className="px-2 py-1 bg-white rounded-lg w-fit ring-1 ring-primary">
+                  Direito Trabalhista
+                </div>
+              </div>
 
               {/* Subtítulo */}
               <MotionDivDownToUp>
@@ -59,8 +67,8 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                 <div className="flex justify-center w-full desktop1:justify-start mb-[32px]">
                   <Button
                     aria-label={content.texts.hero.ctaButtonAriaLabel}
-                    label={content.texts.hero.ctaButtonText}
-                    gap="gap-[0px]"
+                    label="Entre em contato"
+                    gap=""
                     animation
                     className="w-[100%]"
                     icon={<FaWhatsapp size={24} />}

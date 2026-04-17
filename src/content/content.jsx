@@ -123,7 +123,8 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA EM ITAPECERICA DA SERRA E SÃO PAULO",
+      miniTag:
+        "ESCRITÓRIO DE ADVOCACIA PARTICULAR EM ITAPECERICA DA SERRA E SÃO PAULO",
       title: (
         <h1 className="mb-[16px]">
           Dra. Cecilia Silva - Sócia fundadora
@@ -134,7 +135,7 @@ const content = {
       ),
       subtitle: (
         <p className="text-paragraph1">
-          Advogada, atuante desde 2011.
+          Advogada Particular, atuante desde 2011.
           <br />
           * Pós graduada em Processo Civil e Direito Civil pela Escola Paulista
           de Direito - EPD
@@ -599,12 +600,12 @@ const content = {
         </h1>
       ),
       subtitleDireita: (
-        <p className="gap-3 flex font-mainFont opacity-60 mt-1">
+        <p className="flex gap-3 mt-1 font-mainFont opacity-60">
           <span>E N T R E </span> E M <span>C O N T A T O</span> V I A
         </p>
       ),
       titleDireita: (
-        <h1 className="text-title5 my-3 font-mainFont">WhatsApp</h1>
+        <h1 className="my-3 text-title5 font-mainFont">WhatsApp</h1>
       ),
       ctaButtonText: "Falar agora",
     },
